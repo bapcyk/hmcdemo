@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47+devel r9458"
+   sodipodi:docname="images.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.572285"
+     inkscape:cx="-20.050498"
+     inkscape:cy="982.46593"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       id="grid2955"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3767">
+      <stop
+         id="stop3769"
+         offset="0"
+         style="stop-color:#6c5d53;stop-opacity:1;" />
+      <stop
+         id="stop3771"
+         offset="1"
+         style="stop-color:#decd87;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(146,0)"
+       y2="297.77542"
+       x2="112.66988"
+       y1="271.15256"
+       x1="99.261116"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3785"
+       xlink:href="#linearGradient3767"
+       inkscape:collect="always" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1" />
+  <rect
+     style="fill:#c8ab37;fill-opacity:1;stroke:#000000;stroke-width:1"
+     id="rect3890"
+     width="20"
+     height="40"
+     x="4.5317678"
+     y="65.280159"
+     inkscape:export-filename="C:\prj\hmcdemo\src\t.png"
+     inkscape:export-xdpi="44"
+     inkscape:export-ydpi="44" />
+  <rect
+     y="65.280159"
+     x="24.531767"
+     height="40"
+     width="20"
+     id="rect3892"
+     style="fill:#504416;fill-opacity:1;stroke:#000000;stroke-width:1"
+     inkscape:export-filename="C:\prj\hmcdemo\src\t.png"
+     inkscape:export-xdpi="44"
+     inkscape:export-ydpi="44" />
+  <rect
+     style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect3894"
+     width="40"
+     height="20"
+     x="74.531776"
+     y="25.280159"
+     inkscape:export-filename="C:\prj\hmcdemo\src\s.png"
+     inkscape:export-xdpi="44"
+     inkscape:export-ydpi="44" />
+  <rect
+     style="fill:#504416;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect3896"
+     width="40"
+     height="20"
+     x="74.531769"
+     y="5.280159"
+     inkscape:export-filename="C:\prj\hmcdemo\src\s.png"
+     inkscape:export-xdpi="44"
+     inkscape:export-ydpi="44" />
+  <path
+     style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     d="M 24.531768,5.2929765 4.5317676,25.292977 l 5,0 0,20 30.0000004,0 0,-20 5,0 -20,-20.0000005 z"
+     id="rect3926"
+     inkscape:export-filename="C:\prj\hmcdemo\src\f.png"
+     inkscape:export-xdpi="44.536083"
+     inkscape:export-ydpi="44.536083"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g3961"
+     transform="translate(194.42285,11.90513)"
+     inkscape:export-filename="C:\prj\hmcdemo\src\f.png"
+     inkscape:export-xdpi="44.536083"
+     inkscape:export-ydpi="44.536083">
+    <path
+       d="m -165.35201,4.4843941 c 0,2.5068616 -2.03221,4.5390744 -4.53907,4.5390744 -2.50686,0 -4.53908,-2.0322128 -4.53908,-4.5390744 0,-2.5068616 2.03222,-4.53907445 4.53908,-4.53907445 2.50686,0 4.53907,2.03221285 4.53907,4.53907445 z"
+       sodipodi:ry="4.5390744"
+       sodipodi:rx="4.5390744"
+       sodipodi:cy="4.4843941"
+       sodipodi:cx="-169.89108"
+       id="path3936"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3938"
+       d="m -169.89108,-0.05468033 0,8.42970993"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3940"
+       d="m -174.43015,4.4843942 8.42971,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3948"
+       d="m -169.23527,2.3083228 c 0,-0.9677908 0.13944,-1.45898825 0.41419,-1.45898825 0.68757,0 1.82878,0.95349335 2.35185,1.96499925 l 0.4928,0.9529773 -1.62942,0 -1.62942,0 0,-1.4589883 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3950"
+       d="m -173.2982,2.8143338 c 0.52307,-1.0115059 1.66429,-1.96499925 2.35186,-1.96499925 0.27474,0 0.41419,0.49119745 0.41419,1.45898825 l 0,1.4589883 -1.62943,0 -1.62942,0 0.4928,-0.9529773 z"
+       style="fill:#008000;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3956"
+       d="m -172.26639,7.3332266 c -0.60961,-0.5352374 -1.18462,-1.2647316 -1.27781,-1.621098 -0.1524,-0.5827551 -0.009,-0.6479391 1.4213,-0.6479391 l 1.59075,0 0,1.6210981 c 0,0.8916039 -0.14082,1.621098 -0.31294,1.621098 -0.17212,0 -0.8117,-0.4379215 -1.4213,-0.973159 z"
+       style="fill:#000080;fill-opacity:1;stroke:none" />
+  </g>
+  <path
+     style="fill:#cccccc;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 93.540968,68.820711 c -6.33579,3.182248 -12.65336,7.425218 -18.98915,10.607466 l 4.24566,1.303568 0,17.227548 27.916662,10.505227 0,-19.221242 3.43142,1.047966 C 104.77681,83.38651 99.634786,75.26109 93.540968,68.820711 z"
+     id="path3981"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 93.555368,69.086007 7.844312,-6.894871 16.29204,17.767552 -6.6375,10.342307 0,-0.265187"
+     id="path4007"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 74.246298,79.428314 11.76646,-8.485996 15.386922,-9.01637 0,0"
+     id="path4009"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 106.77625,108.53311 8.80354,-18.232115 0,-6.894871"
+     id="path4013"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+  <g
+     id="g3969"
+     transform="matrix(0.93055555,0,0,0.81792508,182.85986,-9.9972295)"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998">
+    <path
+       transform="matrix(0.81659369,0,0,0.72489054,5.7423382,6.370416)"
+       d="m -120,139.86218 c 0,4.14214 -2.23858,7.5 -5,7.5 -2.76142,0 -5,-3.35786 -5,-7.5 0,-4.14213 2.23858,-7.5 5,-7.5 2.76142,0 5,3.35787 5,7.5 z"
+       sodipodi:ry="7.5"
+       sodipodi:rx="5"
+       sodipodi:cy="139.86218"
+       sodipodi:cx="-125"
+       id="path3930"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.48981678;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3932"
+       d="m -96.617445,102.72294 c 0,9.72659 0,10.0508 0,10.0508"
+       style="fill:none;stroke:#000000;stroke-width:1.14623082px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3934"
+       d="m -100.66035,105.80929 8.410043,3.55388"
+       style="fill:none;stroke:#000000;stroke-width:1.14623082px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3946"
+       d="m -94.745817,107.60419 -1.215824,-0.49881 0,-2.10298 0,-2.10298 0.729494,0.47804 c 1.147322,0.75185 2.188483,2.51293 2.188483,3.70174 0,1.21578 -0.01052,1.21902 -1.702153,0.52499 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3952"
+       d="m -98.312233,106.08822 c -1.127688,-0.40082 -1.127688,-0.96168 0,-2.07073 l 0.891604,-0.87687 0.10259,0.89161 c 0.05643,0.49038 0.05643,1.22489 0,1.63225 -0.09141,0.65991 -0.199776,0.7061 -0.994194,0.42374 z"
+       style="fill:#008000;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3954"
+       d="m -98.352007,111.39815 c -0.791539,-0.94069 -1.494625,-2.78726 -1.498461,-3.93554 -0.0017,-0.50028 0.09646,-0.5027 1.29507,-0.0319 l 1.296879,0.50943 0,2.22035 c 0,1.2212 -0.05998,2.22036 -0.133289,2.22036 -0.07331,0 -0.505398,-0.44223 -0.960199,-0.98273 z"
+       style="fill:#000080;fill-opacity:1;stroke:none" />
+  </g>
+  <path
+     style="fill:#504416;fill-opacity:1;stroke:none"
+     d="m 108.85491,87.526679 c -0.88348,-1.203288 -3.35913,-4.574482 -5.50144,-7.491543 -2.14232,-2.917061 -4.950216,-6.538117 -6.239775,-8.046792 -1.289558,-1.508676 -2.34465,-2.823389 -2.34465,-2.921585 0,-0.260972 6.596235,-5.998728 6.734145,-5.857723 1.51706,1.551052 15.29027,16.714522 15.29027,16.833663 0,0.231016 -6.06555,9.671776 -6.21397,9.671776 -0.065,0 -0.84111,-0.984509 -1.72458,-2.187796 z"
+     id="path4018"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+  <path
+     style="fill:#c8ab37;fill-opacity:1;stroke:none"
+     d="m 84.992308,72.449236 c 0.61469,-0.597244 11.099457,-6.86681 11.483554,-6.86681 0.553428,0 -2.617124,2.487611 -4.120454,3.232909 -0.91266,0.452461 -2.9893,1.580834 -4.61476,2.507496 -3.16752,1.805788 -3.65185,2.00429 -2.74834,1.126405 z"
+     id="path4022"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+  <path
+     style="fill:#808080;fill-opacity:1;stroke:none"
+     d="m 107.44062,97.718725 0,-7.730203 1.4141,0.488232 c 0.77775,0.268527 1.50243,0.709573 1.6104,0.9801 0.23606,0.591515 0.29299,0.52167 2.82496,-3.466097 l 1.68377,-2.651874 0.005,2.383094 0.005,2.383094 -3.65253,7.561429 c -2.00889,4.15879 -3.70598,7.61116 -3.77131,7.67194 -0.0653,0.0608 -0.11877,-3.36811 -0.11877,-7.619715 z"
+     id="path4024"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\prj\hmcdemo\src\i.png"
+     inkscape:export-xdpi="37.920998"
+     inkscape:export-ydpi="37.920998" />
+</svg>

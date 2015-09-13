@@ -1,0 +1,26 @@
+Honeywell HMC6343 demo, v 1.0
+(src) 1 % listen
+{::sensor phvals} {::phvals {dsintr cintr saver uicells lpfir lpfilter}} {::lpfilter ui3d} {::lpfir {}} {::hpfir {}} {::bpfir {}} {::cintr {}} {::dsintr uiplot} {::dsintr.hPFilter0 dsintr.sIntr0} {::dsintr.hPFilter1 dsintr.sIntr1} {::dsintr.hPFilter2 dsintr._out} {::dsintr.sIntr0 dsintr.hPFilter1} {::dsintr.sIntr1 dsintr.hPFilter2} {::dsintr._out {}}
+(src) 2 % saver listen 
+wrong # args: should be "saver listen what"
+(src) 3 % saver listened
+0
+(src) 4 % saver listen -on
+(src) 5 % saver listened
+1
+(src) 6 % DebugListener vel [open vel w] {[join $ARGS ";"]}
+vel
+(src) 7 % DebugListener acc [open acc w] {[join $ARGS ";"]}
+acc
+(src) 8 % listen
+{::sensor phvals} {::phvals {dsintr cintr saver uicells lpfir lpfilter}} {::lpfilter ui3d} {::lpfir {}} {::hpfir {}} {::bpfir {}} {::cintr {}} {::dsintr uiplot} {::dsintr.hPFilter0 dsintr.sIntr0} {::dsintr.hPFilter1 dsintr.sIntr1} {::dsintr.hPFilter2 dsintr._out} {::dsintr.sIntr0 dsintr.hPFilter1} {::dsintr.sIntr1 dsintr.hPFilter2} {::dsintr._out {}} {::vel {}} {::acc {}}
+(src) 9 % debug_listen vel dsintr.sIntr0 dsintr.hPFilter1
+(src) 10 % debug_listen acc dsintr.sIntr1 dsintr.hPFilter2
+(src) 11 % serial open 4
+(src) 12 % sensor poll -loop
+
+(src) 13 % sensor poll -loop stop
+1
+Canceled polling
+(src) 14 % (src) 14 % 
+

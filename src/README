@@ -1,0 +1,13 @@
+Demo for HMC6343 chip feautures
+
+KNOWN BUGS
+==========
+
+- sometimes on Windows there are problems with COM port: auto-creating of
+  another instance of the same, incorrect closing of port... Restart
+  computer to fix it.
+- after system wake-up port can not be open: no such file message. Disconnect
+  device before sleeping mode to fix it.
+- use I2C addresses: 0x32/0x33 - factory defaults, but if user change them,
+  program will not work
+- rotation more then 90 degrees is handled incorrect

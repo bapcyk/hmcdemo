@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<title></title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<div class="section" id="classes">
+<h1>Classes</h1>
+<div class="section" id="hmc6343protocol">
+<h2>::HMC6343Protocol</h2>
+<div class="section" id="variables">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::HMC6343Protocol::this</li>
+</ul>
+</div>
+<div class="section" id="methods">
+<h3>Methods</h3>
+<p><em>::HMC6343Protocol::get</em>: <strong>cmd what</strong></p>
+<pre class="literal-block">
+Returns protocol info (what) about command cmd. What is:
+  -def - definition of command (Tcl commands list to be execute for request)
+  -resplen - length of response in bytes
+  -respfmt - format of response
+  -all - as fields as list
+</pre>
+<p><em>::HMC6343Protocol::unpack</em>: <strong>cmd buf</strong></p>
+<pre class="literal-block">
+Returns unpacked (as list) values from buf for cmd
+</pre>
+<p><em>::HMC6343Protocol::commands</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns known commands names
+</pre>
+<p><em>::HMC6343Protocol::constructor</em>: <strong>defs</strong></p>
+<pre class="literal-block">
+Creates object.
+  - defs is the list of CMD RESPONSE_LEN RESPONSE_FMT { Serial commands }...
+  - RESPONSE_FMT is like in binary command
+</pre>
+</div>
+</div>
+<div class="section" id="uicells-extends-datalistener">
+<h2>::Uicells (<em>extends ::DataListener</em>)</h2>
+<div class="section" id="id1">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Uicells::this</li>
+<li>protected ::Uicells::FMT</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Methods</h3>
+<p><em>::Uicells::line</em>: <strong>{char =}</strong></p>
+<pre class="literal-block">
+Adds delimiter line filled with char symbol
+</pre>
+<p><em>::Uicells::clear</em>: <strong>&lt;undefined&gt;</strong></p>
+<pre class="literal-block">
+Clears content of the grid
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+</div>
+</div>
+<div class="section" id="physvalues-extends-datalistener-dataprovider">
+<h2>::PhysValues (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id3">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::PhysValues::this</li>
+<li>protected ::PhysValues::COLUMNS</li>
+<li>public ::PhysValues::corrg</li>
+<li>protected ::PhysValues::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>Methods</h3>
+<p><em>::PhysValues::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="basefilter-extends-datalistener-dataprovider">
+<h2>::BaseFilter (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id5">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::BaseFilter::this</li>
+<li>protected ::BaseFilter::COLUMNS</li>
+<li>protected ::BaseFilter::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h3>Methods</h3>
+<p><em>::BaseFilter::chconfigure</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Configure channels' filters:
+  -ord int|{int0 int1...} -- order of filter
+  -f1 double|{double0 double1...} -- cut freq 1
+  -f2 double|{double0 double1...} -- cut freq 2
+  -win bool|{bool0 bool1...} -- need Blackman window?
+  -norm bool|{bool0 bool1...} -- need normalization of coefficients?
+  -fs double|{double0 double1...} -- sampling freq (if omitted, sensor get_freq is used)
+
+Positional args are indexes of channels to be filtered or 'all'. Ex:
+
+  chconfigure 0 1 3 -f1 {10 20 30} -ord {15 20 25}
+
+All freqs are in Hz. Sampling freq is obtained from sensor when onrun is called.
+Without args, returns last chconfigure string
+</pre>
+<p><em>::BaseFilter::get_cfir</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns core FIR (on C in DLL) object
+</pre>
+<p><em>::BaseFilter::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="lpfilter-extends-datalistener-dataprovider">
+<h2>::LPFilter (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id7">
+<h3>Variables</h3>
+<ul class="simple">
+<li>public ::LPFilter::dt</li>
+<li>protected ::LPFilter::this</li>
+<li>public ::LPFilter::rc</li>
+<li>protected ::LPFilter::COLUMNS</li>
+<li>protected ::LPFilter::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h3>Methods</h3>
+<p><em>::LPFilter::get_coeff</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Returns coefficient
+</pre>
+<p><em>::LPFilter::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="ui3d-extends-datalistener">
+<h2>::Ui3d (<em>extends ::DataListener</em>)</h2>
+<div class="section" id="id9">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Ui3d::this</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h3>Methods</h3>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+</div>
+</div>
+<div class="section" id="sintr-extends-datalistener-dataprovider">
+<h2>::SIntr (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id11">
+<h3>Variables</h3>
+<ul class="simple">
+<li>public ::SIntr::h</li>
+<li>protected ::SIntr::this</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h3>Methods</h3>
+<p><em>::SIntr::get_intr</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns 1 of 3 integrators
+</pre>
+<p><em>::SIntr::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="dataprovider">
+<h2>::DataProvider</h2>
+<div class="section" id="id13">
+<h3>Variables</h3>
+<ul class="simple">
+<li>public ::DataProvider::datatype</li>
+<li>protected ::DataProvider::this</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h3>Methods</h3>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="hpfilter-extends-datalistener-dataprovider">
+<h2>::HPFilter (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id15">
+<h3>Variables</h3>
+<ul class="simple">
+<li>public ::HPFilter::dt</li>
+<li>protected ::HPFilter::this</li>
+<li>public ::HPFilter::rc</li>
+<li>protected ::HPFilter::COLUMNS</li>
+<li>protected ::HPFilter::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h3>Methods</h3>
+<p><em>::HPFilter::get_coeff</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Returns coefficient
+</pre>
+<p><em>::HPFilter::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="hmc6343eeprom">
+<h2>::HMC6343EEPROM</h2>
+<div class="section" id="id17">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::HMC6343EEPROM::this</li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h3>Methods</h3>
+<p><em>::HMC6343EEPROM::read</em>: <strong>addr</strong></p>
+<pre class="literal-block">
+Reads data from EEPROM cell.
+addr may be integer (0x00|0, or cell name). When addr is integer,
+reads one address, when is cell name, then reads all addresses of
+this named entry
+</pre>
+<p><em>::HMC6343EEPROM::constructor</em>: <strong>defs</strong></p>
+<pre class="literal-block">
+Creates object. defs - definition of EEPROM cells
+</pre>
+<p><em>::HMC6343EEPROM::edit</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Call UI editor of EEPROM cells
+</pre>
+<p><em>::HMC6343EEPROM::save</em>: <strong>fname</strong></p>
+<pre class="literal-block">
+Saves EEPROM content to CSV file fname
+</pre>
+<p><em>::HMC6343EEPROM::get</em>: <strong>name what</strong></p>
+<pre class="literal-block">
+Returns info about named cell.
+what is one of the:
+  -addr - start address
+  -len - number of bytes from this address
+  -fact - factory default | --
+  -fmt - format (like binary scan)
+  -valid - validator
+  -descr - description
+</pre>
+<p><em>::HMC6343EEPROM::load</em>: <strong>fname {reset {}}</strong></p>
+<pre class="literal-block">
+Loads EEPROM content from CSV file, early saved by save method.
+If reset is &quot;-reset&quot;, then reset MCU after loading (to apply
+EEPROM setup)
+</pre>
+<p><em>::HMC6343EEPROM::cells</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns cells names
+</pre>
+<p><em>::HMC6343EEPROM::write</em>: <strong>addr value</strong></p>
+<pre class="literal-block">
+Writes data into cell.
+addr is integer or cell name. When is the integer, write
+only into this address, when is the cell name, writes
+into several addresses (of this named cell)
+</pre>
+</div>
+</div>
+<div class="section" id="hpfir-extends-basefilter-datalistener-dataprovider">
+<h2>::Hpfir (<em>extends ::BaseFilter ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id19">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Hpfir::this</li>
+<li>protected ::BaseFilter::COLUMNS</li>
+<li>protected ::BaseFilter::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id20">
+<h3>Methods</h3>
+<p><em>::Hpfir::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::BaseFilter::chconfigure</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Configure channels' filters:
+  -ord int|{int0 int1...} -- order of filter
+  -f1 double|{double0 double1...} -- cut freq 1
+  -f2 double|{double0 double1...} -- cut freq 2
+  -win bool|{bool0 bool1...} -- need Blackman window?
+  -norm bool|{bool0 bool1...} -- need normalization of coefficients?
+  -fs double|{double0 double1...} -- sampling freq (if omitted, sensor get_freq is used)
+
+Positional args are indexes of channels to be filtered or 'all'. Ex:
+
+  chconfigure 0 1 3 -f1 {10 20 30} -ord {15 20 25}
+
+All freqs are in Hz. Sampling freq is obtained from sensor when onrun is called.
+Without args, returns last chconfigure string
+</pre>
+<p><em>::BaseFilter::get_cfir</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns core FIR (on C in DLL) object
+</pre>
+<p><em>::BaseFilter::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="dsintr-extends-datalistener-dataprovider">
+<h2>::DSIntr (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id21">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::DSIntr::this</li>
+<li>protected ::DSIntr::COLUMNS</li>
+<li>public ::DSIntr::fon</li>
+<li>protected ::DSIntr::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id22">
+<h3>Methods</h3>
+<p><em>::DSIntr::links</em>: <strong>{mode {}}</strong></p>
+<pre class="literal-block">
+Describes links in column mode (mode is &quot;-col&quot;), string mode otherwise.
+</pre>
+<p><em>::DSIntr::set_flt</em>: <strong>iflt flt</strong></p>
+<pre class="literal-block">
+Replaces existent filter object in iflt position with another one.
+Flt may be any filter, but High-Pass are preferred by algorithm.
+After replacing returns old.
+</pre>
+<p><em>::DSIntr::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DSIntr::get_flt</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns filter by cascade number i
+</pre>
+<p><em>::DSIntr::constructor</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+filter - need filtering or only integrate
+</pre>
+<p><em>::DSIntr::prepare_flt</em>: <strong>iflt flt</strong></p>
+<pre class="literal-block">
+Configures some filter object (flt) with standard options for this algorithm.
+iflt is needed to specified position (in common way options should depends on
+position: input filter or, for ex., output filter cascade)
+</pre>
+<p><em>::DSIntr::get_intr</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns integrator by cascade number i:
+  channel0 -&gt; .. -&gt; 0 -&gt; .. -&gt; 3
+  channel1 -&gt; .. -&gt; 1 -&gt; .. -&gt; 4
+  channel2 -&gt; .. -&gt; 2 -&gt; .. -&gt; 5
+</pre>
+<p><em>::DSIntr::link_all</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Links all cascades with filtering usage (filter=1), otherwise
+without filters.
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="debuglistener-extends-proxylistener-datalistener-dataprovider">
+<h2>::DebugListener (<em>extends ::ProxyListener ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id23">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::DebugListener::this</li>
+<li>public ::DebugListener::fixed_cu</li>
+<li>public ::ProxyListener::origin</li>
+<li>public ::ProxyListener::ondelproc</li>
+<li>public ::ProxyListener::onaddproc</li>
+<li>public ::ProxyListener::onrunproc</li>
+<li>public ::ProxyListener::ondataproc</li>
+<li>public ::ProxyListener::onstopproc</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h3>Methods</h3>
+<p><em>::DebugListener::constructor</em>: <strong>{f stdout} {fmt {}}</strong></p>
+<pre class="literal-block">
+f - output channel id. fmt - format string, default is the
+&quot;*DEBUG_${THIS} ${EVENT}*: $ARGS&quot;
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="proxylistener-extends-datalistener-dataprovider">
+<h2>::ProxyListener (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id25">
+<h3>Variables</h3>
+<ul class="simple">
+<li>public ::ProxyListener::origin</li>
+<li>protected ::ProxyListener::this</li>
+<li>public ::ProxyListener::ondelproc</li>
+<li>public ::ProxyListener::onaddproc</li>
+<li>public ::ProxyListener::onrunproc</li>
+<li>public ::ProxyListener::ondataproc</li>
+<li>public ::ProxyListener::onstopproc</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id26">
+<h3>Methods</h3>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="cintr-extends-datalistener-dataprovider">
+<h2>::CIntr (<em>extends ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id27">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::CIntr::this</li>
+<li>public ::CIntr::a</li>
+<li>protected ::CIntr::COLUMNS</li>
+<li>protected ::CIntr::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id28">
+<h3>Methods</h3>
+<p><em>::CIntr::get_coeff</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Returns coefficient
+</pre>
+<p><em>::CIntr::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="datalistener">
+<h2>::DataListener</h2>
+<div class="section" id="id29">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::DataListener::this</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+</ul>
+</div>
+<div class="section" id="id30">
+<h3>Methods</h3>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+</div>
+</div>
+<div class="section" id="saver-extends-datalistener">
+<h2>::Saver (<em>extends ::DataListener</em>)</h2>
+<div class="section" id="id31">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Saver::this</li>
+<li>public ::Saver::name</li>
+<li>public ::Saver::fpatt</li>
+<li>public ::Saver::dir</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+</ul>
+</div>
+<div class="section" id="id32">
+<h3>Methods</h3>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+</div>
+</div>
+<div class="section" id="hmc6343-extends-dataprovider">
+<h2>::HMC6343 (<em>extends ::DataProvider</em>)</h2>
+<div class="section" id="id33">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::HMC6343::this</li>
+<li>protected ::HMC6343::COLUMNS</li>
+<li>protected ::HMC6343::UNITS</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id34">
+<h3>Methods</h3>
+<p><em>::HMC6343::set_hfilter</em>: <strong>{value 1}</strong></p>
+<pre class="literal-block">
+Turn-on filtering with this value (1..15: order of the filter);
+0 value turn-off filtering
+</pre>
+<p><em>::HMC6343::request</em>: <strong>args</strong></p>
+<pre class="literal-block">
+One request to sensor device:
+  request REEPROM ADDR 0x00;
+0x00 but not 0 !
+Should be call serial listen -on before!
+</pre>
+<p><em>::HMC6343::enter_mode</em>: <strong>mode</strong></p>
+<pre class="literal-block">
+Enter to mode, mode is {CALIBR|RUN|STANDBY|SLEEP}
+</pre>
+<p><em>::HMC6343::set_orient</em>: <strong>orient</strong></p>
+<pre class="literal-block">
+Set orientation of the sensor chip package. orient may be:
+{LEVEL or YXZ, UPRIGHT_EDGE or UE or XZY, UPRIGHT_FRONT or UF or -ZYX}
+</pre>
+<p><em>::HMC6343::exit_mode</em>: <strong>mode</strong></p>
+<pre class="literal-block">
+Exit from mode, mode is {CALIBR|SLEEP}
+</pre>
+<p><em>::HMC6343::reset_mcu</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset sensor MCU
+</pre>
+<p><em>::HMC6343::poll</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Polling, possible in loop. Has options:
+  -loop - infinite loop of polling
+  -loop N - loop N times polling
+  -loop stop|cancel - stop looping
+</pre>
+<p><em>::HMC6343::set_freq</em>: <strong>{freq 5}</strong></p>
+<pre class="literal-block">
+Set sampling frequency: 1, 5, 10
+</pre>
+<p><em>::HMC6343::get_op_mode1</em>: <strong>{form -dec}</strong></p>
+<pre class="literal-block">
+Get OPMODE1 register. Forms are form of output: -hex/-dec/-bin/-txt
+  -hex - like 0x0F
+  -dec - like 15
+  -bin - like 0b00001111
+  -txt - text decription
+</pre>
+<p><em>::HMC6343::get_op_mode2</em>: <strong>{form -dec}</strong></p>
+<pre class="literal-block">
+Get OPMODE2 register. Forms are form of output: -hex/-dec/-bin/-txt
+  -hex - like 0x0F
+  -dec - like 15
+  -bin - like 0b00001111
+  -txt - text decription
+</pre>
+<p><em>::HMC6343::get_freq</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Get current sampling frequency
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="uiplot-extends-datalistener">
+<h2>::Uiplot (<em>extends ::DataListener</em>)</h2>
+<div class="section" id="id35">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Uiplot::z_color</li>
+<li>protected ::Uiplot::this</li>
+<li>protected ::Uiplot::y_center</li>
+<li>protected ::Uiplot::cw</li>
+<li>protected ::Uiplot::NT</li>
+<li>protected ::Uiplot::ch</li>
+<li>protected ::Uiplot::x_end</li>
+<li>protected ::Uiplot::vertpad</li>
+<li>protected ::Uiplot::y_end</li>
+<li>protected ::Uiplot::pw</li>
+<li>protected ::Uiplot::z_end</li>
+<li>protected ::Uiplot::x_center</li>
+<li>protected ::Uiplot::ph</li>
+<li>protected ::Uiplot::horizpad</li>
+<li>protected ::Uiplot::bw</li>
+<li>protected ::Uiplot::z_center</li>
+<li>protected ::Uiplot::title</li>
+<li>protected ::Uiplot::x_color</li>
+<li>protected ::Uiplot::y_color</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+</ul>
+</div>
+<div class="section" id="id36">
+<h3>Methods</h3>
+<p><em>::Uiplot::set_intr</em>: <strong>intrname</strong></p>
+<pre class="literal-block">
+Changes used integrator. intrname is {dsintr|cintr}
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+</div>
+</div>
+<div class="section" id="bpfir-extends-basefilter-datalistener-dataprovider">
+<h2>::Bpfir (<em>extends ::BaseFilter ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id37">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Bpfir::this</li>
+<li>protected ::BaseFilter::COLUMNS</li>
+<li>protected ::BaseFilter::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id38">
+<h3>Methods</h3>
+<p><em>::Bpfir::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::BaseFilter::chconfigure</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Configure channels' filters:
+  -ord int|{int0 int1...} -- order of filter
+  -f1 double|{double0 double1...} -- cut freq 1
+  -f2 double|{double0 double1...} -- cut freq 2
+  -win bool|{bool0 bool1...} -- need Blackman window?
+  -norm bool|{bool0 bool1...} -- need normalization of coefficients?
+  -fs double|{double0 double1...} -- sampling freq (if omitted, sensor get_freq is used)
+
+Positional args are indexes of channels to be filtered or 'all'. Ex:
+
+  chconfigure 0 1 3 -f1 {10 20 30} -ord {15 20 25}
+
+All freqs are in Hz. Sampling freq is obtained from sensor when onrun is called.
+Without args, returns last chconfigure string
+</pre>
+<p><em>::BaseFilter::get_cfir</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns core FIR (on C in DLL) object
+</pre>
+<p><em>::BaseFilter::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+<div class="section" id="serial">
+<h2>::Serial</h2>
+<div class="section" id="id39">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Serial::this</li>
+</ul>
+</div>
+<div class="section" id="id40">
+<h3>Methods</h3>
+<p><em>::Serial::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns 1 if listened readable events, 0 otherwise
+</pre>
+<p><em>::Serial::got</em>: <strong>{what -size}</strong></p>
+<pre class="literal-block">
+Returns incoming data as string with -data option or
+it's size with -size option but unlike read does not
+clear _inbuf
+</pre>
+<p><em>::Serial::send</em>: <strong>bytes</strong></p>
+<pre class="literal-block">
+Sends bytes (like {0x53 0x30 ...}) sequence
+</pre>
+<p><em>::Serial::open</em>: <strong>port {mode 9600,n,8,1}</strong></p>
+<pre class="literal-block">
+Opens port with name or number (1,2..) port and mode (like &quot;9600,n,8,1&quot;)
+</pre>
+<p><em>::Serial::closed</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is it closed?
+</pre>
+<p><em>::Serial::opened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is it opened?
+</pre>
+<p><em>::Serial::read</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Receive bytes from port. With -nb -- in NON-BLOCKED manner, but
+returns _inbuf (early readed asynchronously)
+</pre>
+<p><em>::Serial::expect</em>: <strong>nbytes body</strong></p>
+<pre class="literal-block">
+Used for sending with waiting for nbytes bytes, ex.
+serial expect 6 { serial docmd SOME_CMD }
+</pre>
+<p><em>::Serial::close</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Safe closing of port (listening turn-off)
+</pre>
+<p><em>::Serial::ls</em>: <strong>{what -all}</strong></p>
+<pre class="literal-block">
+Prints -all|-virt|-auto - detected COM-ports from Windows registry
+  -all - is without FriendlyName
+  -virt - virtual ports
+</pre>
+<p><em>::Serial::listen</em>: <strong>{enabled -on}</strong></p>
+<pre class="literal-block">
+Turn-on/off listening of incoming bytes in async manner.
+  -on - enables listening
+  -off - disables listening
+</pre>
+</div>
+</div>
+<div class="section" id="lpfir-extends-basefilter-datalistener-dataprovider">
+<h2>::Lpfir (<em>extends ::BaseFilter ::DataListener ::DataProvider</em>)</h2>
+<div class="section" id="id41">
+<h3>Variables</h3>
+<ul class="simple">
+<li>protected ::Lpfir::this</li>
+<li>protected ::BaseFilter::COLUMNS</li>
+<li>protected ::BaseFilter::UNITS</li>
+<li>public ::DataListener::all</li>
+<li>public ::DataListener::datatypes</li>
+<li>public ::DataProvider::datatype</li>
+<li>public ::DataProvider::all</li>
+</ul>
+</div>
+<div class="section" id="id42">
+<h3>Methods</h3>
+<p><em>::Lpfir::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::BaseFilter::chconfigure</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Configure channels' filters:
+  -ord int|{int0 int1...} -- order of filter
+  -f1 double|{double0 double1...} -- cut freq 1
+  -f2 double|{double0 double1...} -- cut freq 2
+  -win bool|{bool0 bool1...} -- need Blackman window?
+  -norm bool|{bool0 bool1...} -- need normalization of coefficients?
+  -fs double|{double0 double1...} -- sampling freq (if omitted, sensor get_freq is used)
+
+Positional args are indexes of channels to be filtered or 'all'. Ex:
+
+  chconfigure 0 1 3 -f1 {10 20 30} -ord {15 20 25}
+
+All freqs are in Hz. Sampling freq is obtained from sensor when onrun is called.
+Without args, returns last chconfigure string
+</pre>
+<p><em>::BaseFilter::get_cfir</em>: <strong>i</strong></p>
+<pre class="literal-block">
+Returns core FIR (on C in DLL) object
+</pre>
+<p><em>::BaseFilter::reset</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state
+</pre>
+<p><em>::DataListener::listened</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Is listening now?
+</pre>
+<p><em>::DataListener::event</em>: <strong>ev src args</strong></p>
+<pre class="literal-block">
+generate event (call callback) for this listener.
+ev is ListenEvent object, src is the source of event.
+ev is one of run|stop|data|on|off|add|del:
+  run - before first packet sent
+  stop - after last packet sent
+  data - packet is received
+  on - enable listening
+  off - disable listening
+  add - connect with some data provider
+  del - disconnect from some data provider
+</pre>
+<p><em>::DataListener::listen</em>: <strong>what</strong></p>
+<pre class="literal-block">
+listen -on -- turn-on listening
+listen -off -- turn-off listening
+</pre>
+<p><em>::DataProvider::get_listeners</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns names of all listeners
+</pre>
+<p><em>::DataProvider::del_listener</em>: <strong>listener {stop 1}</strong></p>
+<pre class="literal-block">
+Deletes listener, sends before stop event if needed
+</pre>
+<p><em>::DataProvider::del_all_listeners</em>: <strong>{stop 1}</strong></p>
+<pre class="literal-block">
+Deletes all listeners, send stop event before, if needed
+</pre>
+<p><em>::DataProvider::notify_all</em>: <strong>ev args</strong></p>
+<pre class="literal-block">
+Notify all listeners with event ev and some args
+</pre>
+<p><em>::DataProvider::number</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Returns number of listeners
+</pre>
+<p><em>::DataProvider::add_listener</em>: <strong>listener</strong></p>
+<pre class="literal-block">
+Add some listener
+</pre>
+</div>
+</div>
+</div>
+<div class="section" id="procedures">
+<h1>Procedures</h1>
+<p><em>listen</em>: <strong>args</strong></p>
+<pre class="literal-block">
+Set who listen who:
+  listen provider...: listener...
+or
+  listen prov...: all
+or
+  listen -- return list of lists {provider {listeners}}
+or
+  listen -txt -- return formatted string (for user)
+or
+  listen -p -- returns formatted string with providers and it's datatypes
+or
+  listen -l -- returns formatted string with listeners and it's datatypes
+</pre>
+<p><em>reset_dsp</em>: <strong>no args.</strong></p>
+<pre class="literal-block">
+Reset internal state of all DSP components
+</pre>
+</div>
+</div>
+</body>
+</html>
